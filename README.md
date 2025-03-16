@@ -1,33 +1,18 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# Pollinator - Automate Your Poll Answers!
 
-## Getting Started
+[**Pollinator**](https://chromewebstore.google.com/detail/chfolendnhhaelefhjlpknenkjedkbbg?utm_source=item-share-cb) is your trusty little bot that makes answering polls a breeze! Whether it's for a quiz, a survey, or just some fun questions, Pollinator automates your responses in a flash—no more clicking around or second-guessing. Sit back, relax, and let Pollinator do the heavy lifting while you get on with your day. Because why should polls be a chore when they can be a breeze?
 
-First, run the development server:
+### 🚀 Features
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+Currently supports **2 question types** on PollEv:
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+1. **Multiple Choice** – Randomly selects an option.
+2. **Open-Ended** – Choose your own default answer in the pop-up.
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+### ⚠️ Disclaimer
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+I do **not** promote or condone the usage of this script for any kind of **academic misconduct or dishonesty**. This script was written solely for educational purposes, specifically to explore **cybersecurity and web protocol automation**. I cannot be held liable for any indirect, incidental, consequential, special, or exemplary damages arising out of or in connection with the usage of this script.
 
-## Making production build
+### 📩 Feedback
 
-Run the following:
-
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+I’d love to hear your thoughts on this extension! Feel free to reach out to me at [ernest.tanhk@gmail.com](mailto:ernest.tanhk@gmail.com).
